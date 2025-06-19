@@ -39,5 +39,11 @@ public class Persona {
 	public void cumpleanos() {
 		System.out.println(edad + 1);
 	}
+
+	public void DatosPersona() {
+		System.out.println("Persona [nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad + "]");
+	}
+	
+	
 	
 }
